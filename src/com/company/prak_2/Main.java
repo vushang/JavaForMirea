@@ -1,7 +1,6 @@
-package com.company;
+package com.company.prak_2;
 
-import java.util.Random;
-import java.util.Arrays;
+import com.company.prak_2.Shape_test;
 
 public class Main {
     public static void main(String[] args) {
