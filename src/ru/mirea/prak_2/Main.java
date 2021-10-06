@@ -1,6 +1,4 @@
-package com.company.prak_2;
-
-import com.company.prak_2.Shape_test;
+package ru.mirea.prak_2;
 
 public class Main {
     public static void main(String[] args) {
