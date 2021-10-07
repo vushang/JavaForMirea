@@ -12,6 +12,14 @@ public class Human {
         this.age = age;
     }
 
+    public String get_name(){
+        return name;
+    }
+
+    public int get_age(){
+        return age;
+    }
+
     public void get_info_all(){
         this.head_1.get_info_head();
         this.hand_1.get_info_hand();
