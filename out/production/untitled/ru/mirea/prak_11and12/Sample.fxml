@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mirea.prak_11and12.Controller">
+    <children>
+        <StackPane prefHeight="80.0" prefWidth="300.0">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c8e4ff" height="60.0" stroke="BLACK" strokeType="INSIDE" width="195.0" StackPane.alignment="CENTER_RIGHT">
+                    <StackPane.margin>
+                        <Insets right="5.0" />
+                    </StackPane.margin></Rectangle>
+                <Text fx:id="input" wrappingWidth="190.0" StackPane.alignment="CENTER_RIGHT">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                    <StackPane.margin>
+                        <Insets right="5.0" />
+                    </StackPane.margin></Text>
+                <Text fx:id="CoutInput" text = "Ввод:" StackPane.alignment="CENTER_LEFT">
+                    <StackPane.margin>
+                        <Insets left="10.0" />
+                    </StackPane.margin>
+                    <font>
+                        <Font size="20.0" />
+                    </font></Text>
+            </children>
+        </StackPane>
+        <StackPane prefHeight="80.0" prefWidth="300.0">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d6e8ff" height="60.0" stroke="BLACK" strokeType="INSIDE" width="195.0" StackPane.alignment="CENTER_RIGHT">
+                    <StackPane.margin>
+                        <Insets right="5.0" />
+                    </StackPane.margin></Rectangle>
+                <Text fx:id="output" wrappingWidth="190.0" StackPane.alignment="CENTER_RIGHT">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                    <StackPane.margin>
+                        <Insets right="5.0" />
+                    </StackPane.margin></Text>
+                <Text fx:id="CoutOutput" text="Вывод:" wrappingWidth="82.0" StackPane.alignment="CENTER_LEFT">
+                    <StackPane.margin>
+                        <Insets left="10.0" />
+                    </StackPane.margin>
+                    <font>
+                        <Font size="20.0" />
+                    </font></Text>
+            </children>
+        </StackPane>
+        <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="7">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="8">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="9">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="/">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+            </children>
+            <padding>
+                <Insets top="5.0" />
+            </padding>
+        </HBox>
+
+        <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="4">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="5">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="6">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="*">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+            </children>
+            <padding>
+                <Insets top="5.0" />
+            </padding>
+        </HBox>
+
+        <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="200.0" spacing="10.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="1">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="2">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="3">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="+">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+            </children>
+            <padding>
+                <Insets top="5.0" />
+            </padding>
+        </HBox>
+
+        <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="110.0" text="0">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="=">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="-">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+            </children>
+            <padding>
+                <Insets top="5.0" />
+            </padding>
+        </HBox>
+    </children>
+</VBox>
