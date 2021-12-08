@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="600.0" style="-fx-background-color: #e3e8e6;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mirea.prak_13and14.Controller">
+    <children>
+        <StackPane prefHeight="100.0" prefWidth="600.0">
+            <children>
+                <Text fx:id="winText" fill="#00ff0a">
+                    <font>
+                        <Font size="64.0" />
+                    </font>
+                </Text>
+
+                <Text fx:id="loseText" fill="RED">
+                    <font>
+                        <Font size="64.0" />
+                    </font>
+                </Text>
+
+                <Text fx:id="drawText" fill="#4855ff">
+                    <font>
+                        <Font size="64.0" />
+                    </font>
+                </Text>
+            </children></StackPane>
+        <HBox prefHeight="150.0" prefWidth="600.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="0" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText0" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="1" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText1" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="2" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText2" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="3" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText3" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+            </children>
+        </HBox>
+
+        <HBox prefHeight="150.0" prefWidth="600.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="4" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText4" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="5" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText5" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="6" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText6" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="7" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText7" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+            </children>
+        </HBox>
+
+        <HBox prefHeight="150.0" prefWidth="600.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="8" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText8" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="9" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText9" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="10" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText10" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="11" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText11" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+            </children>
+        </HBox>
+
+        <HBox prefHeight="150.0" prefWidth="600.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="12" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText12" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="13" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText13" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="14" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText14" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+
+                <Button mnemonicParsing="false" onAction="#processSelection" prefHeight="150.0" prefWidth="150.0" text="15" textOverrun="CLIP">
+                    <graphic>
+                        <Text fx:id="buttonText15" wrappingWidth="28.078125">
+                            <font>
+                                <Font name="System Bold" size="48.0" />
+                            </font>
+                        </Text>
+                    </graphic>
+                    <font>
+                        <Font size="0.5" />
+                    </font></Button>
+            </children>
+        </HBox>
+        <Button alignment="CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" onAction="#processReset" prefHeight="48.0" prefWidth="600.0" text="Play Again" textFill="#ff0303">
+            <font>
+                <Font size="14.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <VBox.margin>
+                <Insets top="3.0" />
+            </VBox.margin>
+        </Button>
+    </children>
+</VBox>
